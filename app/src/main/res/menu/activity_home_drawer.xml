@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/pill_box"
+            android:icon="@drawable/ic_inbox_black_24dp"
+            android:title="PillBox" />
+        <item
+            android:id="@+id/reminder"
+            android:icon="@mipmap/reminder"
+            android:title="Reminders" />
+        <item
+            android:id="@+id/medical_profile"
+            android:icon="@mipmap/medical_profile"
+            android:title="Medical Profile" />
+        <item
+            android:title="Calendar"
+            android:id="@+id/calendar"
+            android:icon = "@drawable/ic_date_range_black_24dp"/>
+    </group>
+
+    <group>
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:icon="@mipmap/profile_pic"
+                android:title="Profile" />
+            <item
+                android:title="Dairy"
+                android:icon="@drawable/ic_note_black_24dp"/>
+        </menu>
+    </group>
+
+</menu>
