@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Srinath"
+        android:text="Ajith Kumar Sekar"
         android:textColor="@android:color/background_light"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
